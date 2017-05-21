@@ -28,10 +28,10 @@ public class TweetController {
     @Autowired
     private Twitter twitter;
 
-    @RequestMapping(value = "/")
-    public String home(){
-        return "searchPage";
-    }
+//    @RequestMapping(value = "/")
+//    public String home(){
+//        return "searchPage";
+//    }
 
     @RequestMapping(value = "/result")
     public String hello(@RequestParam String search, Model model){
