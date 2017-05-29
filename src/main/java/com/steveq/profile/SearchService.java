@@ -1,4 +1,4 @@
-package com.steveq.search;
+package com.steveq.profile;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.social.twitter.api.SearchParameters;

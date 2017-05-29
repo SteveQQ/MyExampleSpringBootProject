@@ -27,8 +27,8 @@ dependencies {
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 	compile 'org.springframework.boot:spring-boot-starter-thymeleaf:1.5.3.RELEASE'
 	compile 'org.springframework.boot:spring-boot-starter-social-twitter'
-	compile 'org.webjars:materializecss:0.96.0'
-	compile 'org.webjars:jquery:2.1.4'
+//	compile 'org.webjars:materializecss:0.96.0'
+//	compile 'org.webjars:jquery:2.1.4'
 }
 
 task wrapper(type: Wrapper){
